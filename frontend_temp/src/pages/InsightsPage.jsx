@@ -100,7 +100,7 @@ export const InsightsPage = () => {
                   icon={ArrowRight}
                   onClick={() => navigate('/chat')}
                 >
-                  Discuss with AURA
+                  Discuss with WaveMind
                 </Button>
               </div>
             </div>

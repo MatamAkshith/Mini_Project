@@ -1,4 +1,4 @@
-// Centralized mock data for AURA AI Companion Platform
+// Centralized mock data for WaveMind AI Companion Platform
 
 export const mockUser = {
   name: "Alex Morgan",
@@ -119,7 +119,7 @@ export const mockGoals = [
     progress: 70,
     status: "In Progress",
     priority: "Medium",
-    description: "Practice evening emotional debriefing with AURA to prevent exam burnout.",
+    description: "Practice evening emotional debriefing with WaveMind to prevent exam burnout.",
     milestones: [
       { text: "Establish 10min daily meditation trigger", done: true },
       { text: "Log weekly mood triggers accurately", done: true },
@@ -166,7 +166,7 @@ export const mockJournalEntries = [
     title: "Overcoming Mid-Week Fatigue & Project Breakthroughs",
     mood: "Elated",
     moodScore: 8,
-    content: "Today started off a bit heavy with deadlines looming for our Mini Project review. However, after engaging in a 15-minute morning meditation and breaking down the UI design into structured components, momentum shifted fast. The AURA interface layout looks remarkably crisp with dark glass cards!",
+    content: "Today started off a bit heavy with deadlines looming for our Mini Project review. However, after engaging in a 15-minute morning meditation and breaking down the UI design into structured components, momentum shifted fast. The WaveMind interface layout looks remarkably crisp with dark glass cards!",
     tags: ["Academic", "Productivity", "Mindfulness"],
     sentiment: "Positive",
     extractedEntities: ["Capstone Project", "Design System", "Meditation"]
@@ -178,7 +178,7 @@ export const mockJournalEntries = [
     title: "Reflecting on Group Collaboration & Stress Signals",
     mood: "Anxious",
     moodScore: 5,
-    content: "Felt overwhelmed during the morning team sync due to conflicting priorities between thesis prep and frontend deliverables. Worked through breathing exercises recommended by AURA. Realized that my stress spikes when I lack a clear prioritized task list.",
+    content: "Felt overwhelmed during the morning team sync due to conflicting priorities between thesis prep and frontend deliverables. Worked through breathing exercises recommended by WaveMind. Realized that my stress spikes when I lack a clear prioritized task list.",
     tags: ["Stress Management", "Teamwork", "Self-Awareness"],
     sentiment: "Neutral / Reflective",
     extractedEntities: ["Team Sync", "Thesis", "Priority List"]
@@ -279,11 +279,11 @@ export const mockChatConversations = [
         id: "m1",
         sender: "user",
         timestamp: "10:14 AM",
-        text: "Hey AURA, I'm feeling a bit anxious about the upcoming capstone review presentation tomorrow. I want to make sure I present the vision clearly."
+        text: "Hey WaveMind, I'm feeling a bit anxious about the upcoming capstone review presentation tomorrow. I want to make sure I present the vision clearly."
       },
       {
         id: "m2",
-        sender: "aura",
+        sender: "wavemind",
         timestamp: "10:15 AM",
         text: "Good morning Alex! It's completely natural to feel pre-presentation jitters, especially considering how much dedication you've put into your capstone over the past weeks.\n\nFrom our long-term memory logs, I recall that you thrive when breaking complex presentations into clear narrative arcs: **Problem ➔ Emotional Solution ➔ Visual Prototype**.",
         contextUsed: ["Mem-101 (Direct support style)", "Mem-103 (Capstone evaluation date)"],
@@ -297,7 +297,7 @@ export const mockChatConversations = [
       },
       {
         id: "m4",
-        sender: "aura",
+        sender: "wavemind",
         timestamp: "10:18 AM",
         text: "Here are 3 core pillars you can emphasize:\n\n1. **Long-Term Memory Synthesis**: Show how past journal entries and habit records continuously inform personalized insights.\n2. **Holistic Growth Tracking**: Demonstrate the synergy between mood trends, daily habits, and long-term academic goals.\n3. **Empathetic Interaction Design**: Highlight the calm, distraction-free UI created to lower anxiety and foster regular self-reflection.",
         suggestedActions: ["View Memory Graph", "Review Goal Progress", "Practice 2-min Breathing"]

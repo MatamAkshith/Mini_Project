@@ -26,7 +26,7 @@ export const ChatMessage = ({ message, onActionClick }) => {
       <div className={`max-w-[85%] md:max-w-[75%] space-y-2 ${isUser ? 'items-end' : 'items-start'}`}>
         {/* Header line */}
         <div className={`flex items-center gap-2 text-[11px] text-slate-400 ${isUser ? 'justify-end' : 'justify-start'}`}>
-          <span className="font-semibold text-slate-300">{isUser ? mockUser.name : 'AURA Companion'}</span>
+          <span className="font-semibold text-slate-300">{isUser ? mockUser.name : 'WaveMind Companion'}</span>
           <span>•</span>
           <span>{message.timestamp}</span>
         </div>

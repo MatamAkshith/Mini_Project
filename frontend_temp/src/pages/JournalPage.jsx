@@ -74,7 +74,7 @@ export const JournalPage = ({ isOpenNew, setIsOpenNew }) => {
             "How was your day, Alex?"
           </h2>
           <p className="text-xs text-slate-400 mt-1">
-            Expressing your daily experiences helps AURA synthesize your emotional resilience over time.
+            Expressing your daily experiences helps WaveMind synthesize your emotional resilience over time.
           </p>
         </div>
 

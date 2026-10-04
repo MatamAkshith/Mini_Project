@@ -182,7 +182,7 @@ export const ChatPage = () => {
           {isTyping && (
             <div className="flex items-center gap-3 text-xs text-indigo-400 animate-pulse py-2">
               <Bot className="w-4 h-4" />
-              <span>AURA is synthesizing memory context & formulating reply...</span>
+              <span>WaveMind is synthesizing memory context & formulating reply...</span>
             </div>
           )}
         </div>

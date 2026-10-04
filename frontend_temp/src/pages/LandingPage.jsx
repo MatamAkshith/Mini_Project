@@ -30,7 +30,7 @@ export const LandingPage = () => {
             <Sparkles className="w-5 h-5 text-white animate-pulse" />
           </div>
           <div>
-            <span className="font-heading text-xl font-bold tracking-tight text-white">AURA</span>
+            <span className="font-heading text-xl font-bold tracking-tight text-white">WaveMind</span>
             <span className="ml-2 text-[10px] font-semibold px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
               Academic Showcase
             </span>
@@ -101,7 +101,7 @@ export const LandingPage = () => {
                 <div className="w-3 h-3 rounded-full bg-rose-500/80" />
                 <div className="w-3 h-3 rounded-full bg-amber-500/80" />
                 <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
-                <span className="text-xs text-slate-400 font-mono ml-2">aura.academic.internal/prototype/v1</span>
+                <span className="text-xs text-slate-400 font-mono ml-2">wavemind.academic.internal/prototype/v1</span>
               </div>
               <Badge variant="emerald">Live Visual State</Badge>
             </div>

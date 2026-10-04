@@ -55,7 +55,7 @@ export const Sidebar = ({ isOpen, setIsOpen }) => {
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <span className="font-heading text-lg font-bold tracking-tight text-white">AURA</span>
+                <span className="font-heading text-lg font-bold tracking-tight text-white">WaveMind</span>
                 <span className="px-1.5 py-0.5 text-[10px] font-semibold bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 rounded">v1.0</span>
               </div>
               <p className="text-[11px] text-slate-400 font-medium leading-tight">Academic Companion</p>

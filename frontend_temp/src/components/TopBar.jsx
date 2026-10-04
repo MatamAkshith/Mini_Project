@@ -32,7 +32,7 @@ export const TopBar = ({ toggleSidebar, onOpenQuickAction }) => {
       case '/memories': return { title: 'Long-Term Memory Graph', desc: 'Visual representation of extracted user context' };
       case '/settings': return { title: 'Platform Settings', desc: 'Manage profile preferences & memory privacy controls' };
       case '/profile': return { title: 'User Profile & Bio', desc: 'Overview of personal achievements & core values' };
-      default: return { title: 'AURA Platform', desc: 'Personal Growth & Memory Ecosystem' };
+      default: return { title: 'WaveMind Platform', desc: 'Personal Growth & Memory Ecosystem' };
     }
   };
 

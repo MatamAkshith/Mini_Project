@@ -71,7 +71,7 @@ export const Dashboard = ({ onOpenQuickAction }) => {
               icon={Bot}
               onClick={() => navigate('/chat')}
             >
-              Chat with AURA
+              Chat with WaveMind
             </Button>
             <Button 
               variant="secondary" 
